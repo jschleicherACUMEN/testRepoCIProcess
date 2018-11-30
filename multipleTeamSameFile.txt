@@ -1,1 +1,5 @@
 Lots to do and lots to do it
+
+public static void getToIt() {
+    service.doIt();
+}
