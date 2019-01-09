@@ -5,7 +5,7 @@
         <active>true</active>
         <description>the Date Signed field must be filled before a Congressional Letters RT case can be closed. An error message displays if the user tries closing the case without filling the Date Signed field.</description>
         <errorConditionFormula>AND( 
-$RecordType.DeveloperName=&apos;Congressional_Letter&apos;, 
+$RecordType.DeveloperName=&apos;Other&apos;, 
 IF(ISPICKVAL( Status , &apos;Closed&apos;), 
 ISBLANK(Views_Date_Signed_Wet__c) , false) 
 )</errorConditionFormula>
