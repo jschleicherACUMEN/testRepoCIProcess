@@ -1,4 +1,4 @@
-Lots to do and lots to do it
+
 
 function aaaa viewstest {
   testlog;
