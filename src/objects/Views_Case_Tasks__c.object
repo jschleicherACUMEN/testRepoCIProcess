@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Action_Requested__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The action being requested for the case task assignee to complete.</inlineHelpText>
+        <label>Action Requested</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>For Information Only</fullName>
+                    <default>false</default>
+                    <label>For Information Only</label>
+                </value>
+                <value>
+                    <fullName>Prepare Response</fullName>
+                    <default>false</default>
+                    <label>Prepare Response</label>
+                </value>
+                <value>
+                    <fullName>Provide Concurrence</fullName>
+                    <default>false</default>
+                    <label>Provide Concurrence</label>
+                </value>
+                <value>
+                    <fullName>Provide Information</fullName>
+                    <default>false</default>
+                    <label>Provide Information</label>
+                </value>
+                <value>
+                    <fullName>Reconcile Edits</fullName>
+                    <default>false</default>
+                    <label>Reconcile Edits</label>
+                </value>
+                <value>
+                    <fullName>Provide Review</fullName>
+                    <default>false</default>
+                    <label>Provide Review</label>
+                </value>
+                <value>
+                    <fullName>For Signature</fullName>
+                    <default>false</default>
+                    <label>For Signature</label>
+                </value>
+                <value>
+                    <fullName>For Action</fullName>
+                    <default>false</default>
+                    <label>For Action</label>
+                </value>
+                <value>
+                    <fullName>Close Case</fullName>
+                    <default>false</default>
+                    <label>Close Case</label>
+                </value>
+                <value>
+                    <fullName>Dispatch</fullName>
+                    <default>false</default>
+                    <label>Dispatch</label>
+                </value>
+                <value>
+                    <fullName>Provide Internal Concurrence</fullName>
+                    <default>false</default>
+                    <label>Provide Internal Concurrence</label>
+                </value>
+                <value>
+                    <fullName>Additional Information</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Additional Information</label>
+                </value>
+                <value>
+                    <fullName>Appropriate Action</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Appropriate Action</label>
+                </value>
+                <value>
+                    <fullName>Assign</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Assign</label>
+                </value>
+                <value>
+                    <fullName>Assignment Cancelled</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Assignment Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Correspondence Dispatched</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Correspondence Dispatched</label>
+                </value>
+                <value>
+                    <fullName>Extension Requested</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Extension Requested</label>
+                </value>
+                <value>
+                    <fullName>Final Processing</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Final Processing</label>
+                </value>
+                <value>
+                    <fullName>Final Review</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Final Review</label>
+                </value>
+                <value>
+                    <fullName>For Awareness or Tracking</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>For Awareness or Tracking</label>
+                </value>
+                <value>
+                    <fullName>For Awareness/Tracking</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>For Awareness/Tracking</label>
+                </value>
+                <value>
+                    <fullName>Provide Data</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Provide Data</label>
+                </value>
+                <value>
+                    <fullName>Provide Draft</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Provide Draft</label>
+                </value>
+                <value>
+                    <fullName>Reassignment Requested</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Reassignment Requested</label>
+                </value>
+                <value>
+                    <fullName>Returned</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Returned</label>
+                </value>
+                <value>
+                    <fullName>Review Draft</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Review Draft</label>
+                </value>
+                <value>
+                    <fullName>See Requested Activity</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>See Requested Activity</label>
+                </value>
+                <value>
+                    <fullName>Signature</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Signature</label>
+                </value>
+                <value>
+                    <fullName>Signature Change Required</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Signature Change Required</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <recordTypes>
+        <fullName>Congressional_Correspondence</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>VIEWS_Case_Task</compactLayoutAssignment>
+        <label>Congressional Correspondence</label>
+        <picklistValues>
+            <picklist>Action_Requested__c</picklist>
+            <values>
+                <fullName>Close Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dispatch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>For Action</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>For Information Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>For Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prepare Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Provide Concurrence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Provide Information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Provide Internal Concurrence</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Provide Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reconcile Edits</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>
